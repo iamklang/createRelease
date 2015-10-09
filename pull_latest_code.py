@@ -14,3 +14,5 @@ call(["git", "fetch", "--all"])
 
 call(["git", "flow", "release", "start", sys.argv[1]])
 call(["git", "flow", "release", "finish", "-m", sys.argv[1], sys.argv[1]])
+
+#call(["git", "flow", "origin", "master", "develop", "--tags"])
